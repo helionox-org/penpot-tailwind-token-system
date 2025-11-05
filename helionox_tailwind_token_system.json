@@ -3260,6 +3260,33 @@
         "$value": "{_font-weight.thin} * {affine-transform.font-weight.scaling} + {affine-transform.font-weight.offset}"
       }
     },
+    "perspective": {
+      "distant": {
+        "$description": "",
+        "$type": "dimension",
+        "$value": "{_perspective.distant}"
+      },
+      "dramatic": {
+        "$description": "",
+        "$type": "dimension",
+        "$value": "{_perspective.dramatic}"
+      },
+      "midrange": {
+        "$description": "",
+        "$type": "dimension",
+        "$value": "{_perspective.midrange}"
+      },
+      "near": {
+        "$description": "",
+        "$type": "dimension",
+        "$value": "{_perspective.near}"
+      },
+      "normal": {
+        "$description": "",
+        "$type": "dimension",
+        "$value": "{_perspective.normal}"
+      }
+    },
     "radius": {
       "2xl": {
         "$description": "",
