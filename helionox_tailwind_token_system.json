@@ -3196,6 +3196,23 @@
         "$value": "{_container.xs} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       }
     },
+    "font": {
+      "mono": {
+        "$description": "",
+        "$type": "fontFamilies",
+        "$value": "{_font.mono.value}"
+      },
+      "sans": {
+        "$description": "",
+        "$type": "fontFamilies",
+        "$value": "{_font.sans.value}"
+      },
+      "serif": {
+        "$description": "",
+        "$type": "fontFamilies",
+        "$value": "{_font.serif.value}"
+      }
+    },
     "font-weight": {
       "black": {
         "$description": "",
