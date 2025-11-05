@@ -3200,17 +3200,17 @@
       "mono": {
         "$description": "",
         "$type": "fontFamilies",
-        "$value": "{_font.mono.value}"
+        "$value": "{_font.mono}"
       },
       "sans": {
         "$description": "",
         "$type": "fontFamilies",
-        "$value": "{_font.sans.value}"
+        "$value": "{_font.sans}"
       },
       "serif": {
         "$description": "",
         "$type": "fontFamilies",
-        "$value": "{_font.serif.value}"
+        "$value": "{_font.serif}"
       }
     },
     "font-weight": {
