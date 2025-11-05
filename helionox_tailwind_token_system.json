@@ -39,27 +39,27 @@
     },
     "_breakpoint": {
       "2xl": {
-        "$description": "Position, width, height, radius, or thickness",
+        "$description": "Used for mainly width of screens/boards. Can also be used for height, position, thickness, radius.",
         "$type": "dimension",
         "$value": "1536px"
       },
       "lg": {
-        "$description": "Position, width, height, radius, or thickness",
+        "$description": "Used for mainly width of screens/boards. Can also be used for height, position, thickness, radius.",
         "$type": "dimension",
         "$value": "1024px"
       },
       "md": {
-        "$description": "Position, width, height, radius, or thickness",
+        "$description": "Used for mainly width of screens/boards. Can also be used for height, position, thickness, radius.",
         "$type": "dimension",
         "$value": "768px"
       },
       "sm": {
-        "$description": "Position, width, height, radius, or thickness",
+        "$description": "Used for mainly width of screens/boards. Can also be used for height, position, thickness, radius.",
         "$type": "dimension",
         "$value": "640px"
       },
       "xl": {
-        "$description": "Position, width, height, radius, or thickness",
+        "$description": "Used for mainly width of screens/boards. Can also be used for height, position, thickness, radius.",
         "$type": "dimension",
         "$value": "1280px"
       }
@@ -1212,67 +1212,67 @@
     },
     "_container": {
       "2xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "672px"
       },
       "2xs": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "288px"
       },
       "3xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "768px"
       },
       "3xs": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "256px"
       },
       "4xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "896px"
       },
       "5xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "1024px"
       },
       "6xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "1152px"
       },
       "7xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "1280px"
       },
       "lg": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "512px"
       },
       "md": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "448px"
       },
       "sm": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "384px"
       },
       "xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "576px"
       },
       "xs": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "320px"
       }
@@ -1958,94 +1958,94 @@
     },
     "breakpoint": {
       "2xl": {
-        "$description": "Position, width, height, radius, or thickness",
+        "$description": "Used for mainly width of screens/boards. Can also be used for height, position, thickness, radius.",
         "$type": "dimension",
         "$value": "{_breakpoint.2xl} * {affine-transform.breakpoint.scaling} + {affine-transform.breakpoint.offset}"
       },
       "lg": {
-        "$description": "Position, width, height, radius, or thickness",
+        "$description": "Used for mainly width of screens/boards. Can also be used for height, position, thickness, radius.",
         "$type": "dimension",
         "$value": "{_breakpoint.lg} * {affine-transform.breakpoint.scaling} + {affine-transform.breakpoint.offset}"
       },
       "md": {
-        "$description": "Position, width, height, radius, or thickness",
+        "$description": "Used for mainly width of screens/boards. Can also be used for height, position, thickness, radius.",
         "$type": "dimension",
         "$value": "{_breakpoint.md} * {affine-transform.breakpoint.scaling} + {affine-transform.breakpoint.offset}"
       },
       "sm": {
-        "$description": "Position, width, height, radius, or thickness",
+        "$description": "Used for mainly width of screens/boards. Can also be used for height, position, thickness, radius.",
         "$type": "dimension",
         "$value": "{_breakpoint.sm} * {affine-transform.breakpoint.scaling} + {affine-transform.breakpoint.offset}"
       },
       "xl": {
-        "$description": "Position, width, height, radius, or thickness",
+        "$description": "Used for mainly width of screens/boards. Can also be used for height, position, thickness, radius.",
         "$type": "dimension",
         "$value": "{_breakpoint.xl} * {affine-transform.breakpoint.scaling} + {affine-transform.breakpoint.offset}"
       }
     },
     "container": {
       "2xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.2xl} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "2xs": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.2xs} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "3xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.3xl} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "3xs": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.3xs} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "4xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.4xl} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "5xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.5xl} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "6xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.6xl} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "7xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.7xl} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "lg": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.lg} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "md": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.md} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "sm": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.sm} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "xl": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.xl} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       },
       "xs": {
-        "$description": "Constrain width of content to a standard size",
+        "$description": "Container token can be used to set the min and max width to match the current breakpoint.",
         "$type": "dimension",
         "$value": "{_container.xs} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       }
@@ -2735,14 +2735,41 @@
       }
     }
   },
-  "$themes": [],
+  "$themes": [
+    {
+      "id": "eb6ab281-812c-805a-8007-10874dfd807a",
+      "name": "Global",
+      "group": "Always enabled",
+      "description": "",
+      "is-source": false,
+      "modified-at": "2025-11-05T17:26:14.077Z",
+      "selectedTokenSets": {
+        "tailwind-primitives (don't use)": "enabled",
+        "Foundation": "enabled"
+      }
+    },
+    {
+      "id": "eb6ab281-812c-805a-8007-1087a51810fb",
+      "name": "Vanilla Tailwind",
+      "group": "Tailwind Config",
+      "description": "",
+      "is-source": false,
+      "modified-at": "2025-11-05T17:27:35.660Z",
+      "selectedTokenSets": {
+        "Theme config: Base": "enabled"
+      }
+    }
+  ],
   "$metadata": {
     "tokenSetOrder": [
       "tailwind-primitives (don't use)",
       "Foundation",
       "Theme config: Base"
     ],
-    "activeThemes": [],
+    "activeThemes": [
+      "Always enabled/Global",
+      "Tailwind Config/Vanilla Tailwind"
+    ],
     "activeSets": [
       "tailwind-primitives (don't use)",
       "Foundation",

@@ -76,17 +76,13 @@ This is the primary strength of this system. Let's create a "Compact" theme wher
 
 - Go to the **"Themes"** section (above to "Sets").
 
-- Click the `+` icon to create a new theme. Name it **"Compact"**.
+- Click the `Edit` button and `Add new theme` to create a new theme.
 
-- In the theme's configuration, check the following sets:
+- Name the theme **"Compact"** and it to the "Group" **`Tailwind Config`**
 
-  - `tailwind-primitives`
+- Check the set you just created: **`Compact`**
 
-  - `Foundation`
-
-  - `Theme config: Compact`
-
-- Make sure `Theme config: Base` is **unchecked**
+- **Uncheck** everything else
 
 4. **Activate and Use:**
 
