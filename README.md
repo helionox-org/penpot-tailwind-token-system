@@ -31,7 +31,7 @@ The system is organized into three main token sets.
 - **Example:** The value for `Foundation.spacing.04` is not `16px` . It is:
 
 ```
-{\_spacing.04} \* {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}
+{_spacing.04} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}
 ```
 
 ### 3. `Theme config: Base`
@@ -46,7 +46,7 @@ The system is organized into three main token sets.
 
   - `affine-transform.spacing.offset: 0`
 
-When the `Foundation` and `Theme config: Base` sets are combined in a theme, the formula for `Foundation.spacing.04` is resolved as: `16px \* 1 + 0`, resulting in the expected `16px`.
+When the `Foundation` and `Theme config: Base` sets are combined in a theme, the formula for `Foundation.spacing.04` is resolved as: `16px * 1 + 0`, resulting in the expected `16px`.
 
 ## 🚀 Usage Guide
 
@@ -92,8 +92,8 @@ This is the primary strength of this system. Let's create a "Compact" theme wher
 
 - Now, any element using a **Foundation** token will be automatically transformed.
 
-- `Foundation.spacing.04` (16px) will now resolve as `16px \* 0.8 + 0 = 12.8px`.
+- `Foundation.spacing.04` (16px) will now resolve as `16px * 0.8 + 0 = 12.8px`.
 
-- `Foundation.radius.lg` (8px) will now resolve as `8px \* 0.8 + 0 = 6.4px`.
+- `Foundation.radius.lg` (8px) will now resolve as `8px * 0.8 + 0 = 6.4px`.
 
 You can repeat this process to create any number of themes, like a "Large Type" theme (by increasing `affine-transform.font-size.scaling`) or a "Touch" theme (by increasing `affine-transform.spacing.scaling`).

@@ -115,7 +115,17 @@
           "$description": "",
           "$type": "color",
           "$value": "#78350f"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#461901"
         }
+      },
+      "black": {
+        "$description": "",
+        "$type": "color",
+        "$value": "#000"
       },
       "blue": {
         "100": {
@@ -167,6 +177,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#1e3a8a"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#162456"
         }
       },
       "cyan": {
@@ -219,6 +234,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#164e63"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#053345"
         }
       },
       "emerald": {
@@ -271,6 +291,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#064e3b"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#002c22"
         }
       },
       "fuchsia": {
@@ -323,6 +348,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#701a75"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#4b004f"
         }
       },
       "gray": {
@@ -375,6 +405,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#111827"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#030712"
         }
       },
       "green": {
@@ -427,6 +462,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#14532d"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#032e15"
         }
       },
       "indigo": {
@@ -479,6 +519,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#312e81"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#1e1a4d"
         }
       },
       "lime": {
@@ -531,6 +576,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#365314"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#192e03"
         }
       },
       "neutral": {
@@ -583,6 +633,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#171717"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#0a0a0a"
         }
       },
       "orange": {
@@ -635,6 +690,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#7c2d12"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#441306"
         }
       },
       "pink": {
@@ -687,6 +747,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#831843"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#510424"
         }
       },
       "purple": {
@@ -739,6 +804,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#581c87"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#3c0366"
         }
       },
       "red": {
@@ -791,6 +861,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#7f1d1d"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#460809"
         }
       },
       "rose": {
@@ -843,6 +918,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#881337"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#4d0218"
         }
       },
       "sky": {
@@ -895,6 +975,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#0c4a6e"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#052f4a"
         }
       },
       "slate": {
@@ -947,6 +1032,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#0f172a"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#020618"
         }
       },
       "stone": {
@@ -999,6 +1089,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#1c1917"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#0c0a09"
         }
       },
       "teal": {
@@ -1051,6 +1146,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#134e4a"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#022f2e"
         }
       },
       "violet": {
@@ -1103,7 +1203,17 @@
           "$description": "",
           "$type": "color",
           "$value": "#4c1d95"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#2f0d68"
         }
+      },
+      "white": {
+        "$description": "",
+        "$type": "color",
+        "$value": "#fff"
       },
       "yellow": {
         "100": {
@@ -1155,6 +1265,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#713f12"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#432004"
         }
       },
       "zinc": {
@@ -1207,6 +1322,11 @@
           "$description": "",
           "$type": "color",
           "$value": "#18181b"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "#09090b"
         }
       }
     },
@@ -2034,7 +2154,17 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.amber.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.amber.950}"
         }
+      },
+      "black": {
+        "$description": "",
+        "$type": "color",
+        "$value": "{_colors.black}"
       },
       "blue": {
         "100": {
@@ -2086,6 +2216,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.blue.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.blue.950}"
         }
       },
       "cyan": {
@@ -2138,6 +2273,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.cyan.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.cyan.950}"
         }
       },
       "emerald": {
@@ -2190,6 +2330,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.emerald.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.emerald.950}"
         }
       },
       "fuchsia": {
@@ -2242,6 +2387,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.fuchsia.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.fuchsia.950}"
         }
       },
       "gray": {
@@ -2294,6 +2444,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.gray.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.gray.950}"
         }
       },
       "green": {
@@ -2346,6 +2501,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.green.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.green.950}"
         }
       },
       "indigo": {
@@ -2398,6 +2558,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.indigo.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.indigo.950}"
         }
       },
       "lime": {
@@ -2450,6 +2615,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.lime.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.lime.950}"
         }
       },
       "neutral": {
@@ -2502,6 +2672,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.neutral.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.neutral.950}"
         }
       },
       "orange": {
@@ -2554,6 +2729,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.orange.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.orange.950}"
         }
       },
       "pink": {
@@ -2606,6 +2786,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.pink.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.pink.950}"
         }
       },
       "purple": {
@@ -2658,6 +2843,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.purple.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.purple.950}"
         }
       },
       "red": {
@@ -2710,6 +2900,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.red.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.red.950}"
         }
       },
       "rose": {
@@ -2762,6 +2957,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.rose.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.rose.950}"
         }
       },
       "sky": {
@@ -2814,6 +3014,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.sky.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.sky.950}"
         }
       },
       "slate": {
@@ -2866,6 +3071,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.slate.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.slate.950}"
         }
       },
       "stone": {
@@ -2918,6 +3128,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.stone.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.stone.950}"
         }
       },
       "teal": {
@@ -2970,6 +3185,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.teal.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.teal.950}"
         }
       },
       "violet": {
@@ -3022,7 +3242,17 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.violet.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.violet.950}"
         }
+      },
+      "white": {
+        "$description": "",
+        "$type": "color",
+        "$value": "{_colors.white}"
       },
       "yellow": {
         "100": {
@@ -3074,6 +3304,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.yellow.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.yellow.950}"
         }
       },
       "zinc": {
@@ -3126,6 +3361,11 @@
           "$description": "",
           "$type": "color",
           "$value": "{_colors.zinc.900}"
+        },
+        "950": {
+          "$description": "",
+          "$type": "color",
+          "$value": "{_colors.zinc.950}"
         }
       }
     },
