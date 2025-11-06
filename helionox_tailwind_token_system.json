@@ -1486,85 +1486,90 @@
       }
     },
     "_opacity": {
-      "100": {
-        "$description": "100% corresponds to opacity-100",
-        "$type": "opacity",
-        "$value": "100%"
-      },
-      "15": {
-        "$description": "15% corresponds to opacity-15",
-        "$type": "opacity",
-        "$value": "15%"
-      },
-      "20": {
-        "$description": "20% corresponds to opacity-20",
-        "$type": "opacity",
-        "$value": "20%"
-      },
-      "25": {
-        "$description": "25% corresponds to opacity-25",
-        "$type": "opacity",
-        "$value": "25%"
-      },
-      "30": {
-        "$description": "30% corresponds to opacity-30",
-        "$type": "opacity",
-        "$value": "30%"
-      },
-      "35": {
-        "$description": "35% corresponds to opacity-35",
-        "$type": "opacity",
-        "$value": "35%"
-      },
-      "40": {
-        "$description": "40% corresponds to opacity-40",
-        "$type": "opacity",
-        "$value": "40%"
-      },
-      "45": {
-        "$description": "45% corresponds to opacity-45",
-        "$type": "opacity",
-        "$value": "45%"
-      },
-      "5": {
+      "005": {
         "$description": "5% corresponds to opacity-5",
         "$type": "opacity",
         "$value": "5%"
       },
-      "50": {
+      "010": {
+        "$description": "5% corresponds to opacity-10",
+        "$type": "opacity",
+        "$value": "10%"
+      },
+      "015": {
+        "$description": "15% corresponds to opacity-15",
+        "$type": "opacity",
+        "$value": "15%"
+      },
+      "020": {
+        "$description": "20% corresponds to opacity-20",
+        "$type": "opacity",
+        "$value": "20%"
+      },
+      "025": {
+        "$description": "25% corresponds to opacity-25",
+        "$type": "opacity",
+        "$value": "25%"
+      },
+      "030": {
+        "$description": "30% corresponds to opacity-30",
+        "$type": "opacity",
+        "$value": "30%"
+      },
+      "035": {
+        "$description": "35% corresponds to opacity-35",
+        "$type": "opacity",
+        "$value": "35%"
+      },
+      "040": {
+        "$description": "40% corresponds to opacity-40",
+        "$type": "opacity",
+        "$value": "40%"
+      },
+      "045": {
+        "$description": "45% corresponds to opacity-45",
+        "$type": "opacity",
+        "$value": "45%"
+      },
+      "050": {
         "$description": "50% corresponds to opacity-50",
         "$type": "opacity",
         "$value": "50%"
       },
-      "55": {
+      "055": {
         "$description": "55% corresponds to opacity-55",
         "$type": "opacity",
         "$value": "55%"
       },
-      "60": {
+      "060": {
         "$description": "60% corresponds to opacity-60",
         "$type": "opacity",
         "$value": "60%"
       },
-      "65": {
+      "065": {
         "$description": "65% corresponds to opacity-65",
         "$type": "opacity",
         "$value": "65%"
       },
-      "75": {
+      "075": {
         "$description": "75% corresponds to opacity-75",
         "$type": "opacity",
         "$value": "75%"
       },
-      "80": {
+      "080": {
         "$description": "80% corresponds to opacity-80",
         "$type": "opacity",
         "$value": "80%"
       },
-      "95": {
+      "095": {
         "$description": "95% corresponds to opacity-95",
         "$type": "opacity",
         "$value": "95%"
+      },
+      "100": {
+        "$description": "100% corresponds to opacity-100",
+        "$type": "opacity",
+        "$value": "100%"
       }
     },
     "_perspective": {
@@ -1636,7 +1641,37 @@
         "$value": "2px"
       }
     },
-    "_rotation": {
+    "_rotate": {
+      "015": {
+        "$description": "rotates object by +15 degrees",
+        "$type": "rotation",
+        "$value": "15"
+      },
+      "030": {
+        "$description": "rotates object by 30 degrees",
+        "$type": "rotation",
+        "$value": "30"
+      },
+      "045": {
+        "$description": "rotates object by 45 degrees",
+        "$type": "rotation",
+        "$value": "45"
+      },
+      "060": {
+        "$description": "rotates object by 60 degrees",
+        "$type": "rotation",
+        "$value": "60"
+      },
+      "075": {
+        "$description": "rotates object by 75 degrees",
+        "$type": "rotation",
+        "$value": "75"
+      },
+      "090": {
+        "$description": "rotates object by 90 degrees",
+        "$type": "rotation",
+        "$value": "90"
+      },
       "105": {
         "$description": "rotates object by 105 degrees",
         "$type": "rotation",
@@ -1646,11 +1681,6 @@
         "$description": "rotates object by 135 degrees",
         "$type": "rotation",
         "$value": "135"
-      },
-      "15": {
-        "$description": "rotates object by +15 degrees",
-        "$type": "rotation",
-        "$value": "15"
       },
       "150": {
         "$description": "rotates object by 150 degrees",
@@ -1702,11 +1732,6 @@
         "$type": "rotation",
         "$value": "285"
       },
-      "30": {
-        "$description": "rotates object by 30 degrees",
-        "$type": "rotation",
-        "$value": "30"
-      },
       "300": {
         "$description": "rotates object by 300 degrees",
         "$type": "rotation",
@@ -1726,26 +1751,6 @@
         "$description": "rotates object by 345 degrees",
         "$type": "rotation",
         "$value": "345"
-      },
-      "45": {
-        "$description": "rotates object by 45 degrees",
-        "$type": "rotation",
-        "$value": "45"
-      },
-      "60": {
-        "$description": "rotates object by 60 degrees",
-        "$type": "rotation",
-        "$value": "60"
-      },
-      "75": {
-        "$description": "rotates object by 75 degrees",
-        "$type": "rotation",
-        "$value": "75"
-      },
-      "90": {
-        "$description": "rotates object by 90 degrees",
-        "$type": "rotation",
-        "$value": "90"
       }
     },
     "_spacing": {
@@ -3695,85 +3700,90 @@
       }
     },
     "opacity": {
+      "005": {
+        "$description": "5% corresponds to opacity-5",
+        "$type": "opacity",
+        "$value": "{_opacity.005} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "010": {
+        "$description": "5% corresponds to opacity-10",
+        "$type": "opacity",
+        "$value": "{_opacity.010} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "015": {
+        "$description": "15% corresponds to opacity-15",
+        "$type": "opacity",
+        "$value": "{_opacity.015} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "020": {
+        "$description": "20% corresponds to opacity-20",
+        "$type": "opacity",
+        "$value": "{_opacity.020} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "025": {
+        "$description": "25% corresponds to opacity-25",
+        "$type": "opacity",
+        "$value": "{_opacity.025} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "030": {
+        "$description": "30% corresponds to opacity-30",
+        "$type": "opacity",
+        "$value": "{_opacity.030} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "035": {
+        "$description": "35% corresponds to opacity-35",
+        "$type": "opacity",
+        "$value": "{_opacity.035} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "040": {
+        "$description": "40% corresponds to opacity-40",
+        "$type": "opacity",
+        "$value": "{_opacity.040} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "045": {
+        "$description": "45% corresponds to opacity-45",
+        "$type": "opacity",
+        "$value": "{_opacity.045} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "050": {
+        "$description": "50% corresponds to opacity-50",
+        "$type": "opacity",
+        "$value": "{_opacity.050} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "055": {
+        "$description": "55% corresponds to opacity-55",
+        "$type": "opacity",
+        "$value": "{_opacity.055} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "060": {
+        "$description": "60% corresponds to opacity-60",
+        "$type": "opacity",
+        "$value": "{_opacity.060} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "065": {
+        "$description": "65% corresponds to opacity-65",
+        "$type": "opacity",
+        "$value": "{_opacity.065} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "075": {
+        "$description": "75% corresponds to opacity-75",
+        "$type": "opacity",
+        "$value": "{_opacity.075} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "080": {
+        "$description": "80% corresponds to opacity-80",
+        "$type": "opacity",
+        "$value": "{_opacity.080} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "095": {
+        "$description": "95% corresponds to opacity-95",
+        "$type": "opacity",
+        "$value": "{_opacity.095} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
       "100": {
         "$description": "100% corresponds to opacity-100",
         "$type": "opacity",
         "$value": "{_opacity.100} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "15": {
-        "$description": "15% corresponds to opacity-15",
-        "$type": "opacity",
-        "$value": "{_opacity.15} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "20": {
-        "$description": "20% corresponds to opacity-20",
-        "$type": "opacity",
-        "$value": "{_opacity.20} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "25": {
-        "$description": "25% corresponds to opacity-25",
-        "$type": "opacity",
-        "$value": "{_opacity.25} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "30": {
-        "$description": "30% corresponds to opacity-30",
-        "$type": "opacity",
-        "$value": "{_opacity.30} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "35": {
-        "$description": "35% corresponds to opacity-35",
-        "$type": "opacity",
-        "$value": "{_opacity.35} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "40": {
-        "$description": "40% corresponds to opacity-40",
-        "$type": "opacity",
-        "$value": "{_opacity.40} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "45": {
-        "$description": "45% corresponds to opacity-45",
-        "$type": "opacity",
-        "$value": "{_opacity.45} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "5": {
-        "$description": "5% corresponds to opacity-5",
-        "$type": "opacity",
-        "$value": "{_opacity.5} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "50": {
-        "$description": "50% corresponds to opacity-50",
-        "$type": "opacity",
-        "$value": "{_opacity.50} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "55": {
-        "$description": "55% corresponds to opacity-55",
-        "$type": "opacity",
-        "$value": "{_opacity.55} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "60": {
-        "$description": "60% corresponds to opacity-60",
-        "$type": "opacity",
-        "$value": "{_opacity.60} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "65": {
-        "$description": "65% corresponds to opacity-65",
-        "$type": "opacity",
-        "$value": "{_opacity.65} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "75": {
-        "$description": "75% corresponds to opacity-75",
-        "$type": "opacity",
-        "$value": "{_opacity.75} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "80": {
-        "$description": "80% corresponds to opacity-80",
-        "$type": "opacity",
-        "$value": "{_opacity.80} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
-      },
-      "95": {
-        "$description": "95% corresponds to opacity-95",
-        "$type": "opacity",
-        "$value": "{_opacity.95} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
       }
     },
     "perspective": {
@@ -3845,116 +3855,116 @@
         "$value": "{_radius.xs} * {affine-transform.border-radius.scaling} + {affine-transform.border-radius.offset}"
       }
     },
-    "rotation": {
+    "rotate": {
+      "015": {
+        "$description": "rotates object by +15 degrees",
+        "$type": "rotation",
+        "$value": "{_rotate.015}"
+      },
+      "030": {
+        "$description": "rotates object by 30 degrees",
+        "$type": "rotation",
+        "$value": "{_rotate.030}"
+      },
+      "045": {
+        "$description": "rotates object by 45 degrees",
+        "$type": "rotation",
+        "$value": "{_rotate.045}"
+      },
+      "060": {
+        "$description": "rotates object by 60 degrees",
+        "$type": "rotation",
+        "$value": "{_rotate.060}"
+      },
+      "075": {
+        "$description": "rotates object by 75 degrees",
+        "$type": "rotation",
+        "$value": "{_rotate.075}"
+      },
+      "090": {
+        "$description": "rotates object by 90 degrees",
+        "$type": "rotation",
+        "$value": "{_rotate.090}"
+      },
       "105": {
         "$description": "rotates object by 105 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.105}"
+        "$value": "{_rotate.105}"
       },
       "135": {
         "$description": "rotates object by 135 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.135}"
-      },
-      "15": {
-        "$description": "rotates object by +15 degrees",
-        "$type": "rotation",
-        "$value": "{_rotation.15}"
+        "$value": "{_rotate.135}"
       },
       "150": {
         "$description": "rotates object by 150 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.150}"
+        "$value": "{_rotate.150}"
       },
       "165": {
         "$description": "rotates object by 165 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.165}"
+        "$value": "{_rotate.165}"
       },
       "180": {
         "$description": "rotates object by 180 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.180}"
+        "$value": "{_rotate.180}"
       },
       "195": {
         "$description": "rotates object by 195 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.195}"
+        "$value": "{_rotate.195}"
       },
       "210": {
         "$description": "rotates object by 210 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.210}"
+        "$value": "{_rotate.210}"
       },
       "225": {
         "$description": "rotates object by 225 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.225}"
+        "$value": "{_rotate.225}"
       },
       "240": {
         "$description": "rotates object by 240 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.240}"
+        "$value": "{_rotate.240}"
       },
       "255": {
         "$description": "rotates object by 255 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.255}"
+        "$value": "{_rotate.255}"
       },
       "270": {
         "$description": "rotates object by 270 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.270}"
+        "$value": "{_rotate.270}"
       },
       "285": {
         "$description": "rotates object by 285 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.285}"
-      },
-      "30": {
-        "$description": "rotates object by 30 degrees",
-        "$type": "rotation",
-        "$value": "{_rotation.30}"
+        "$value": "{_rotate.285}"
       },
       "300": {
         "$description": "rotates object by 300 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.300}"
+        "$value": "{_rotate.300}"
       },
       "315": {
         "$description": "rotates object by 315 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.315}"
+        "$value": "{_rotate.315}"
       },
       "330": {
         "$description": "rotates object by 330 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.330}"
+        "$value": "{_rotate.330}"
       },
       "345": {
         "$description": "rotates object by 345 degrees",
         "$type": "rotation",
-        "$value": "{_rotation.345}"
-      },
-      "45": {
-        "$description": "rotates object by 45 degrees",
-        "$type": "rotation",
-        "$value": "{_rotation.45}"
-      },
-      "60": {
-        "$description": "rotates object by 60 degrees",
-        "$type": "rotation",
-        "$value": "{_rotation.60}"
-      },
-      "75": {
-        "$description": "rotates object by 75 degrees",
-        "$type": "rotation",
-        "$value": "{_rotation.75}"
-      },
-      "90": {
-        "$description": "rotates object by 90 degrees",
-        "$type": "rotation",
-        "$value": "{_rotation.90}"
+        "$value": "{_rotate.345}"
       }
     },
     "spacing": {
