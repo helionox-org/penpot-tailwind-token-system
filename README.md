@@ -2,6 +2,8 @@
 
 This repository contains a set of design tokens for [Penpot](https://penpot.app/), designed to replicate the naming conventions and values of the [Tailwind CSS utility-first framework](https://tailwindcss.com/).
 
+**TLDR**: *Use `Foundation` tokens for everything that you build your design system on. If you want to scale/transform the base `Foundation` token properties, create a new Theme (similar to `Theme config: Base`). Enjoy!*
+
 The system is built on a two-layer structure:
 
 1. **Primitives:** A base set of raw, constant values from Tailwind CSS.
