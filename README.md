@@ -1,4 +1,4 @@
-# 🎨 Penpot Tailwind-based Token & Design System
+# 🎨 Penpot: Tailwind based Token & Design System
 
 This repository contains a set of design tokens for [Penpot](https://penpot.app/), designed to replicate the naming conventions and values of the [Tailwind CSS utility-first framework](https://tailwindcss.com/).
 
@@ -18,7 +18,7 @@ The system is organized into three main token sets.
 
 - **Purpose:** This set acts as the single source of truth for all raw Tailwind values (colors, spacing, font sizes, etc.).
 
-- **Usage:** Do !\*not! use these tokens directly in your designs. It exists only to be referenced by the Foundation set.
+- **Usage:** Do !*not*! use these tokens directly in your designs. It exists only to be referenced by the Foundation set.
 
 ### 2. `Foundation`
 
