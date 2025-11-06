@@ -1551,6 +1551,11 @@
         "$type": "opacity",
         "$value": "65%"
       },
+      "070": {
+        "$description": "70% corresponds to opacity-70",
+        "$type": "opacity",
+        "$value": "70%"
+      },
       "075": {
         "$description": "75% corresponds to opacity-75",
         "$type": "opacity",
@@ -1560,6 +1565,16 @@
         "$description": "80% corresponds to opacity-80",
         "$type": "opacity",
         "$value": "80%"
+      },
+      "085": {
+        "$description": "85% corresponds to opacity-85",
+        "$type": "opacity",
+        "$value": "85%"
+      },
+      "090": {
+        "$description": "90% corresponds to opacity-90",
+        "$type": "opacity",
+        "$value": "90%"
       },
       "095": {
         "$description": "95% corresponds to opacity-95",
@@ -1676,6 +1691,11 @@
         "$description": "rotates object by 105 degrees",
         "$type": "rotation",
         "$value": "105"
+      },
+      "120": {
+        "$description": "rotates object by 120 degrees",
+        "$type": "rotation",
+        "$value": "120"
       },
       "135": {
         "$description": "rotates object by 135 degrees",
@@ -3765,6 +3785,11 @@
         "$type": "opacity",
         "$value": "{_opacity.065} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
       },
+      "070": {
+        "$description": "70% corresponds to opacity-70",
+        "$type": "opacity",
+        "$value": "{_opacity.070} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
       "075": {
         "$description": "75% corresponds to opacity-75",
         "$type": "opacity",
@@ -3774,6 +3799,16 @@
         "$description": "80% corresponds to opacity-80",
         "$type": "opacity",
         "$value": "{_opacity.080} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "085": {
+        "$description": "85% corresponds to opacity-85",
+        "$type": "opacity",
+        "$value": "{_opacity.085} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+      },
+      "090": {
+        "$description": "90% corresponds to opacity-90",
+        "$type": "opacity",
+        "$value": "{_opacity.090} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
       },
       "095": {
         "$description": "95% corresponds to opacity-95",
@@ -3890,6 +3925,11 @@
         "$description": "rotates object by 105 degrees",
         "$type": "rotation",
         "$value": "{_rotate.105}"
+      },
+      "120": {
+        "$description": "rotates object by 120 degrees",
+        "$type": "rotation",
+        "$value": "{_rotate.120}"
       },
       "135": {
         "$description": "rotates object by 135 degrees",
