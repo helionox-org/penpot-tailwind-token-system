@@ -3952,8 +3952,8 @@
   ],
   "$metadata": {
     "tokenSetOrder": [
-      "tailwind-primitives (don't use)",
       "Foundation",
+      "tailwind-primitives (don't use)",
       "Theme config: Base"
     ],
     "activeThemes": [
@@ -3961,8 +3961,8 @@
       "Tailwind Config/Vanilla Tailwind"
     ],
     "activeSets": [
-      "tailwind-primitives (don't use)",
       "Foundation",
+      "tailwind-primitives (don't use)",
       "Theme config: Base"
     ]
   }
