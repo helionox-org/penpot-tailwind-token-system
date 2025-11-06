@@ -4443,18 +4443,6 @@
   },
   "Theme config: Base": {
     "affine-transform": {
-      "border-radius": {
-        "offset": {
-          "$description": "value that is added on top of border-radius, i.e.: radius.sm + offset ",
-          "$type": "number",
-          "$value": "0"
-        },
-        "scaling": {
-          "$description": "value that scales border-radius linearly, i.e.: radius.sm * scaling",
-          "$type": "number",
-          "$value": "1"
-        }
-      },
       "blur": {
         "offset": {
           "$description": "value that is added on top of blur tokens in category dimension, i.e.: blur.sm + offset ",
@@ -4463,6 +4451,18 @@
         },
         "scaling": {
           "$description": "value that scales blur tokens in category dimension linearly, i.e.: blur.sm * scaling",
+          "$type": "number",
+          "$value": "1"
+        }
+      },
+      "border-radius": {
+        "offset": {
+          "$description": "value that is added on top of border-radius, i.e.: radius.sm + offset ",
+          "$type": "number",
+          "$value": "0"
+        },
+        "scaling": {
+          "$description": "value that scales border-radius linearly, i.e.: radius.sm * scaling",
           "$type": "number",
           "$value": "1"
         }
@@ -4491,18 +4491,6 @@
           "$value": "1"
         }
       },
-      "leading": {
-        "offset": {
-          "$description": "value that is added on top of leading/line-height, i.e.: leading.02 + offset ",
-          "$type": "number",
-          "$value": "0"
-        },
-        "scaling": {
-          "$description": "value that scales reference leading/line-height, i.e.: leading.02 * scaling",
-          "$type": "number",
-          "$value": "1"
-        }
-      },
       "font-size": {
         "offset": {
           "$description": "value that is added on top of font-size, i.e.: text-base + offset ",
@@ -4527,6 +4515,18 @@
           "$value": "1"
         }
       },
+      "leading": {
+        "offset": {
+          "$description": "value that is added on top of leading/line-height, i.e.: leading.02 + offset ",
+          "$type": "number",
+          "$value": "0"
+        },
+        "scaling": {
+          "$description": "value that scales reference leading/line-height, i.e.: leading.02 * scaling",
+          "$type": "number",
+          "$value": "1"
+        }
+      },
       "letter-spacing": {
         "offset": {
           "$description": "value that is added on top of letter-spacing, i.e.: tracking-wider + offset ",
@@ -4539,18 +4539,6 @@
           "$value": "1"
         }
       },
-      "spacing": {
-        "offset": {
-          "$description": "value that is added on top of sizing/padding/margin, i.e.: scaling-03 + offset ",
-          "$type": "number",
-          "$value": "0"
-        },
-        "scaling": {
-          "$description": "value that scales sizing/padding/margin linearly, i.e.: scaling-03 * scaling",
-          "$type": "number",
-          "$value": "1"
-        }
-      },
       "opacity": {
         "offset": {
           "$description": "value that is added on top of opacity, i.e.: opacity-10 + offset ",
@@ -4559,6 +4547,18 @@
         },
         "scaling": {
           "$description": "value that scales opacity linearly, i.e.: opacity-10 * scaling",
+          "$type": "number",
+          "$value": "1"
+        }
+      },
+      "spacing": {
+        "offset": {
+          "$description": "value that is added on top of sizing/padding/margin, i.e.: scaling-03 + offset ",
+          "$type": "number",
+          "$value": "0"
+        },
+        "scaling": {
+          "$description": "value that scales sizing/padding/margin linearly, i.e.: scaling-03 * scaling",
           "$type": "number",
           "$value": "1"
         }
