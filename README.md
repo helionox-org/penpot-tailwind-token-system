@@ -1,3 +1,4 @@
+![cover image](images/Thumbnail.png)
 # 🎨 Penpot: Tailwind based Token & Design System
 
 This repository contains a set of design tokens for [Penpot](https://penpot.app/), designed to replicate the naming conventions and values of the [Tailwind CSS utility-first framework](https://tailwindcss.com/).
@@ -97,3 +98,6 @@ This is the primary strength of this system. Let's create a "Compact" theme wher
 - `Foundation.radius.lg` (8px) will now resolve as `8px * 0.8 + 0 = 6.4px`.
 
 You can repeat this process to create any number of themes, like a "Large Type" theme (by increasing `affine-transform.font-size.scaling`) or a "Touch" theme (by increasing `affine-transform.spacing.scaling`).
+
+---
+![Demo Image](images/demo.png)
