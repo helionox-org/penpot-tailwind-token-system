@@ -37,6 +37,28 @@
         "$value": "4px"
       }
     },
+    "_border": {
+      "0": {
+        "$description": "Stroke/border width",
+        "$type": "borderWidth",
+        "$value": "0"
+      },
+      "2": {
+        "$description": "Stroke/border width",
+        "$type": "borderWidth",
+        "$value": "2"
+      },
+      "4": {
+        "$description": "Stroke/border width",
+        "$type": "borderWidth",
+        "$value": "4"
+      },
+      "8": {
+        "$description": "Stroke/border width",
+        "$type": "borderWidth",
+        "$value": "8"
+      }
+    },
     "_breakpoint": {
       "2xl": {
         "$description": "Used for mainly width of screens/boards. Can also be used for height, position, thickness, radius.",
@@ -2192,6 +2214,45 @@
         "$description": "",
         "$type": "fontSizes",
         "$value": "12px"
+      },
+      "case": {
+        "lowercase": {
+          "$value": "lowercase",
+          "$type": "textCase",
+          "$description": ""
+        },
+        "capitalize": {
+          "$value": "capitalize",
+          "$type": "textCase",
+          "$description": ""
+        },
+        "normal-case": {
+          "$value": "none",
+          "$type": "textCase",
+          "$description": ""
+        },
+        "uppercase": {
+          "$value": "uppercase",
+          "$type": "textCase",
+          "$description": ""
+        }
+      },
+      "decoration": {
+        "line-through": {
+          "$value": "strike-through",
+          "$type": "textDecoration",
+          "$description": ""
+        },
+        "no-underline": {
+          "$value": "none",
+          "$type": "textDecoration",
+          "$description": ""
+        },
+        "underline": {
+          "$value": "underline",
+          "$type": "textDecoration",
+          "$description": ""
+        }
       }
     },
     "_tracking": {
@@ -2263,6 +2324,28 @@
         "$description": "",
         "$type": "dimension",
         "$value": "{_blur.xs} * {affine-transform.blur.scaling} + {affine-transform.blur.offset} "
+      }
+    },
+    "border": {
+      "0": {
+        "$description": "Stroke/border width",
+        "$type": "borderWidth",
+        "$value": "{_border.0}"
+      },
+      "2": {
+        "$description": "Stroke/border width",
+        "$type": "borderWidth",
+        "$value": "{_border.2}"
+      },
+      "4": {
+        "$description": "Stroke/border width",
+        "$type": "borderWidth",
+        "$value": "{_border.4}"
+      },
+      "8": {
+        "$description": "Stroke/border width",
+        "$type": "borderWidth",
+        "$value": "{_border.8}"
       }
     },
     "breakpoint": {
@@ -4396,6 +4479,45 @@
         "$description": "",
         "$type": "fontSizes",
         "$value": "{_text.xs} * {affine-transform.font-size.scaling} + {affine-transform.font-size.offset}"
+      },
+      "case": {
+        "lowercase": {
+          "$value": "{_text.case.lowercase}",
+          "$type": "textCase",
+          "$description": ""
+        },
+        "capitalize": {
+          "$value": "{_text.case.capitalize}",
+          "$type": "textCase",
+          "$description": ""
+        },
+        "normal-case": {
+          "$value": "{_text.case.normal-case}",
+          "$type": "textCase",
+          "$description": ""
+        },
+        "uppercase": {
+          "$value": "{_text.case.uppercase}",
+          "$type": "textCase",
+          "$description": ""
+        }
+      },
+      "decoration": {
+        "line-through": {
+          "$value": "{_text.decoration.line-through}",
+          "$type": "textDecoration",
+          "$description": ""
+        },
+        "no-underline": {
+          "$value": "{_text.decoration.no-underline}",
+          "$type": "textDecoration",
+          "$description": ""
+        },
+        "underline": {
+          "$value": "{_text.decoration.underline}",
+          "$type": "textDecoration",
+          "$description": ""
+        }
       }
     },
     "tracking": {
@@ -4505,14 +4627,14 @@
           "$value": "1"
         }
       },
-      "dimension": {
+      "sizing": {
         "offset": {
-          "$description": "value that is added on top of dimension, i.e.: dimension.02 + offset ",
+          "$description": "value that is added on top of sizing, i.e.: sizing.02 + offset ",
           "$type": "number",
           "$value": "0"
         },
         "scaling": {
-          "$description": "value that scales reference dimension, i.e.: dimension.02 * scaling",
+          "$description": "value that scales reference sizing, i.e.: sizing.02 * scaling",
           "$type": "number",
           "$value": "1"
         }
