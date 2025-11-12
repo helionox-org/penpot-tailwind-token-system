@@ -1397,6 +1397,183 @@
         "$value": "320px"
       }
     },
+    "_dimension": {
+      "00": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0px",
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "0.5": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.125rem",
+        "$type": "dimension",
+        "$value": "2px"
+      },
+      "01": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.25rem",
+        "$type": "dimension",
+        "$value": "4px"
+      },
+      "1.5": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.375rem",
+        "$type": "dimension",
+        "$value": "6px"
+      },
+      "02": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.5rem",
+        "$type": "dimension",
+        "$value": "8px"
+      },
+      "2.5": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.625rem",
+        "$type": "dimension",
+        "$value": "10px"
+      },
+      "03": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.75rem",
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "3.5": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.875rem",
+        "$type": "dimension",
+        "$value": "14px"
+      },
+      "04": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 1rem",
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "05": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 1.25rem",
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "06": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 1.5rem",
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "07": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 1.75rem",
+        "$type": "dimension",
+        "$value": "28px"
+      },
+      "08": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 2rem",
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "09": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 2.25rem",
+        "$type": "dimension",
+        "$value": "36px"
+      },
+      "10": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 2.5rem",
+        "$type": "dimension",
+        "$value": "40px"
+      },
+      "11": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 2.75rem",
+        "$type": "dimension",
+        "$value": "44px"
+      },
+      "12": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 3rem",
+        "$type": "dimension",
+        "$value": "48px"
+      },
+      "14": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 3.5rem",
+        "$type": "dimension",
+        "$value": "56px"
+      },
+      "16": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 4rem",
+        "$type": "dimension",
+        "$value": "64px"
+      },
+      "20": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 5rem",
+        "$type": "dimension",
+        "$value": "80px"
+      },
+      "24": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 6rem",
+        "$type": "dimension",
+        "$value": "96px"
+      },
+      "28": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 7rem",
+        "$type": "dimension",
+        "$value": "112px"
+      },
+      "32": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 8rem",
+        "$type": "dimension",
+        "$value": "128px"
+      },
+      "36": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 9rem",
+        "$type": "dimension",
+        "$value": "144px"
+      },
+      "40": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 10rem",
+        "$type": "dimension",
+        "$value": "160px"
+      },
+      "44": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 11rem",
+        "$type": "dimension",
+        "$value": "176px"
+      },
+      "48": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 12rem",
+        "$type": "dimension",
+        "$value": "192px"
+      },
+      "52": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 13rem",
+        "$type": "dimension",
+        "$value": "208px"
+      },
+      "56": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 14rem",
+        "$type": "dimension",
+        "$value": "224px"
+      },
+      "60": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 15rem",
+        "$type": "dimension",
+        "$value": "240px"
+      },
+      "64": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 16rem",
+        "$type": "dimension",
+        "$value": "256px"
+      },
+      "72": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 18rem",
+        "$type": "dimension",
+        "$value": "288px"
+      },
+      "80": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 20rem",
+        "$type": "dimension",
+        "$value": "320px"
+      },
+      "96": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 24rem",
+        "$type": "dimension",
+        "$value": "384px"
+      },
+      "px": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 1px",
+        "$type": "dimension",
+        "$value": "1px"
+      }
+    },
     "_font": {
       "mono": {
         "$description": "",
@@ -1951,213 +2128,6 @@
       }
     },
     "_text": {
-      "leading": {
-        "00": {
-          "$description": "line-height: 0px",
-          "$type": "spacing",
-          "$value": "0px"
-        },
-        "0.5": {
-          "$description": "line-height: 0.125rem",
-          "$type": "spacing",
-          "$value": "2px"
-        },
-        "01": {
-          "$description": "line-height: 0.25rem",
-          "$type": "spacing",
-          "$value": "4px"
-        },
-        "1.5": {
-          "$description": "line-height: 0.375rem",
-          "$type": "spacing",
-          "$value": "6px"
-        },
-        "02": {
-          "$description": "line-height: 0.5rem",
-          "$type": "spacing",
-          "$value": "8px"
-        },
-        "2.5": {
-          "$description": "line-height: 0.625rem",
-          "$type": "spacing",
-          "$value": "10px"
-        },
-        "03": {
-          "$description": "line-height: 0.75rem",
-          "$type": "spacing",
-          "$value": "12px"
-        },
-        "3.5": {
-          "$description": "line-height: 0.875rem",
-          "$type": "spacing",
-          "$value": "14px"
-        },
-        "04": {
-          "$description": "line-height: 1rem",
-          "$type": "spacing",
-          "$value": "16px"
-        },
-        "05": {
-          "$description": "line-height: 1.25rem",
-          "$type": "spacing",
-          "$value": "20px"
-        },
-        "06": {
-          "$description": "line-height: 1.5rem",
-          "$type": "spacing",
-          "$value": "24px"
-        },
-        "07": {
-          "$description": "line-height: 1.75rem",
-          "$type": "spacing",
-          "$value": "28px"
-        },
-        "08": {
-          "$description": "line-height: 2rem",
-          "$type": "spacing",
-          "$value": "32px"
-        },
-        "09": {
-          "$description": "line-height: 2.25rem",
-          "$type": "spacing",
-          "$value": "36px"
-        },
-        "10": {
-          "$description": "line-height: 2.5rem",
-          "$type": "spacing",
-          "$value": "40px"
-        },
-        "11": {
-          "$description": "line-height: 2.75rem",
-          "$type": "spacing",
-          "$value": "44px"
-        },
-        "12": {
-          "$description": "line-height: 3rem",
-          "$type": "spacing",
-          "$value": "48px"
-        },
-        "14": {
-          "$description": "line-height: 3.5rem",
-          "$type": "spacing",
-          "$value": "56px"
-        },
-        "16": {
-          "$description": "line-height: 4rem",
-          "$type": "spacing",
-          "$value": "64px"
-        },
-        "20": {
-          "$description": "line-height: 5rem",
-          "$type": "spacing",
-          "$value": "80px"
-        },
-        "24": {
-          "$description": "line-height: 6rem",
-          "$type": "spacing",
-          "$value": "96px"
-        },
-        "28": {
-          "$description": "line-height: 7rem",
-          "$type": "spacing",
-          "$value": "112px"
-        },
-        "32": {
-          "$description": "line-height: 8rem",
-          "$type": "spacing",
-          "$value": "128px"
-        },
-        "36": {
-          "$description": "line-height: 9rem",
-          "$type": "spacing",
-          "$value": "144px"
-        },
-        "40": {
-          "$description": "line-height: 10rem",
-          "$type": "spacing",
-          "$value": "160px"
-        },
-        "44": {
-          "$description": "line-height: 11rem",
-          "$type": "spacing",
-          "$value": "176px"
-        },
-        "48": {
-          "$description": "line-height: 12rem",
-          "$type": "spacing",
-          "$value": "192px"
-        },
-        "52": {
-          "$description": "line-height: 13rem",
-          "$type": "spacing",
-          "$value": "208px"
-        },
-        "56": {
-          "$description": "line-height: 14rem",
-          "$type": "spacing",
-          "$value": "224px"
-        },
-        "60": {
-          "$description": "line-height: 15rem",
-          "$type": "spacing",
-          "$value": "240px"
-        },
-        "64": {
-          "$description": "line-height: 16rem",
-          "$type": "spacing",
-          "$value": "256px"
-        },
-        "72": {
-          "$description": "line-height: 18rem",
-          "$type": "spacing",
-          "$value": "288px"
-        },
-        "80": {
-          "$description": "line-height: 20rem",
-          "$type": "spacing",
-          "$value": "320px"
-        },
-        "96": {
-          "$description": "line-height: 24rem",
-          "$type": "spacing",
-          "$value": "384px"
-        },
-        "loose": {
-          "$description": "line-height: 2",
-          "$type": "spacing",
-          "$value": "2"
-        },
-        "none": {
-          "$description": "line-height: 1",
-          "$type": "spacing",
-          "$value": "1"
-        },
-        "normal": {
-          "$description": "line-height: 1.5",
-          "$type": "spacing",
-          "$value": "1.5"
-        },
-        "px": {
-          "$description": "line-height: 1px",
-          "$type": "spacing",
-          "$value": "1px"
-        },
-        "relaxed": {
-          "$description": "line-height: 1.625",
-          "$type": "spacing",
-          "$value": "1.625"
-        },
-        "snug": {
-          "$description": "line-height: 1.375",
-          "$type": "spacing",
-          "$value": "1.375"
-        },
-        "tight": {
-          "$description": "line-height: 1.25",
-          "$type": "spacing",
-          "$value": "1.25"
-        }
-      },
       "2xl": {
         "$description": "",
         "$type": "fontSizes",
@@ -3655,6 +3625,183 @@
         "$value": "{_container.xs} * {affine-transform.container.scaling} + {affine-transform.container.offset}"
       }
     },
+    "dimension": {
+      "00": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0px",
+        "$type": "dimension",
+        "$value": "{_dimension.00} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "0.5": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.125rem",
+        "$type": "dimension",
+        "$value": "{_dimension.0.5} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "01": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.25rem",
+        "$type": "dimension",
+        "$value": "{_dimension.01} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "1.5": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.375rem",
+        "$type": "dimension",
+        "$value": "{_dimension.1.5} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "02": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.5rem",
+        "$type": "dimension",
+        "$value": "{_dimension.02} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "2.5": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.625rem",
+        "$type": "dimension",
+        "$value": "{_dimension.2.5} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "03": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.75rem",
+        "$type": "dimension",
+        "$value": "{_dimension.03} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "3.5": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 0.875rem",
+        "$type": "dimension",
+        "$value": "{_dimension.3.5} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "04": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 1rem",
+        "$type": "dimension",
+        "$value": "{_dimension.04} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "05": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 1.25rem",
+        "$type": "dimension",
+        "$value": "{_dimension.05} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "06": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 1.5rem",
+        "$type": "dimension",
+        "$value": "{_dimension.06} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "07": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 1.75rem",
+        "$type": "dimension",
+        "$value": "{_dimension.07} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "08": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 2rem",
+        "$type": "dimension",
+        "$value": "{_dimension.08} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "09": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 2.25rem",
+        "$type": "dimension",
+        "$value": "{_dimension.09} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "10": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 2.5rem",
+        "$type": "dimension",
+        "$value": "{_dimension.10} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "11": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 2.75rem",
+        "$type": "dimension",
+        "$value": "{_dimension.11} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "12": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 3rem",
+        "$type": "dimension",
+        "$value": "{_dimension.12} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "14": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 3.5rem",
+        "$type": "dimension",
+        "$value": "{_dimension.14} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "16": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 4rem",
+        "$type": "dimension",
+        "$value": "{_dimension.16} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "20": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 5rem",
+        "$type": "dimension",
+        "$value": "{_dimension.20} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "24": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 6rem",
+        "$type": "dimension",
+        "$value": "{_dimension.24} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "28": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 7rem",
+        "$type": "dimension",
+        "$value": "{_dimension.28} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "32": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 8rem",
+        "$type": "dimension",
+        "$value": "{_dimension.32} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "36": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 9rem",
+        "$type": "dimension",
+        "$value": "{_dimension.36} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "40": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 10rem",
+        "$type": "dimension",
+        "$value": "{_dimension.40} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "44": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 11rem",
+        "$type": "dimension",
+        "$value": "{_dimension.44} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "48": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 12rem",
+        "$type": "dimension",
+        "$value": "{_dimension.48} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "52": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 13rem",
+        "$type": "dimension",
+        "$value": "{_dimension.52} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "56": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 14rem",
+        "$type": "dimension",
+        "$value": "{_dimension.56} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "60": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 15rem",
+        "$type": "dimension",
+        "$value": "{_dimension.60} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "64": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 16rem",
+        "$type": "dimension",
+        "$value": "{_dimension.64} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "72": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 18rem",
+        "$type": "dimension",
+        "$value": "{_dimension.72} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "80": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 20rem",
+        "$type": "dimension",
+        "$value": "{_dimension.80} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "96": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 24rem",
+        "$type": "dimension",
+        "$value": "{_dimension.96} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      },
+      "px": {
+        "$description": "Use for arbitrary dimension, i.e.: minimum width: 1px",
+        "$type": "dimension",
+        "$value": "{_dimension.px} * {affine-transform.dimension.scaling} + {affine-transform.dimension.offset}"
+      }
+    },
     "font": {
       "mono": {
         "$description": "",
@@ -4185,213 +4332,6 @@
       }
     },
     "text": {
-      "leading": {
-        "00": {
-          "$description": "line-height: 0px",
-          "$type": "dimension",
-          "$value": "{_text.leading.tight} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "0.5": {
-          "$description": "line-height: 0.125rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.px} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "01": {
-          "$description": "line-height: 0.25rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.01} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "1.5": {
-          "$description": "line-height: 0.375rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.1.5} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "02": {
-          "$description": "line-height: 0.5rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.02} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "2.5": {
-          "$description": "line-height: 0.625rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.2.5} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "03": {
-          "$description": "line-height: 0.75rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.03} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "3.5": {
-          "$description": "line-height: 0.875rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.3.5} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "04": {
-          "$description": "line-height: 1rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.04} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "05": {
-          "$description": "line-height: 1.25rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.05} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "06": {
-          "$description": "line-height: 1.5rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.06} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "07": {
-          "$description": "line-height: 1.75rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.07} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "08": {
-          "$description": "line-height: 2rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.08} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "09": {
-          "$description": "line-height: 2.25rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.09} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "10": {
-          "$description": "line-height: 2.5rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.10} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "11": {
-          "$description": "line-height: 2.75rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.11} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "12": {
-          "$description": "line-height: 3rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.12} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "14": {
-          "$description": "line-height: 3.5rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.14} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "16": {
-          "$description": "line-height: 4rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.16} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "20": {
-          "$description": "line-height: 5rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.20} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "24": {
-          "$description": "line-height: 6rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.24} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "28": {
-          "$description": "line-height: 7rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.28} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "32": {
-          "$description": "line-height: 8rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.32} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "36": {
-          "$description": "line-height: 9rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.36} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "40": {
-          "$description": "line-height: 10rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.40} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "44": {
-          "$description": "line-height: 11rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.44} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "48": {
-          "$description": "line-height: 12rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.48} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "52": {
-          "$description": "line-height: 13rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.52} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "56": {
-          "$description": "line-height: 14rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.56} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "60": {
-          "$description": "line-height: 15rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.60} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "64": {
-          "$description": "line-height: 16rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.64} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "72": {
-          "$description": "line-height: 18rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.72} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "80": {
-          "$description": "line-height: 20rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.80} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "96": {
-          "$description": "line-height: 24rem",
-          "$type": "dimension",
-          "$value": "{_text.leading.96} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "loose": {
-          "$description": "line-height: 2",
-          "$type": "dimension",
-          "$value": "{_text.leading.loose} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "none": {
-          "$description": "line-height: 1",
-          "$type": "dimension",
-          "$value": "{_text.leading.none} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "normal": {
-          "$description": "line-height: 1.5",
-          "$type": "dimension",
-          "$value": "{_text.leading.normal} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "px": {
-          "$description": "line-height: 1px",
-          "$type": "dimension",
-          "$value": "{_text.leading.px} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "relaxed": {
-          "$description": "line-height: 1.625",
-          "$type": "dimension",
-          "$value": "{_text.leading.relaxed} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "snug": {
-          "$description": "line-height: 1.375",
-          "$type": "dimension",
-          "$value": "{_text.leading.snug} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        },
-        "tight": {
-          "$description": "line-height: 1.25",
-          "$type": "dimension",
-          "$value": "{_text.leading.tight} * {affine-transform.leading.scaling} + {affine-transform.leading.offset}"
-        }
-      },
       "2xl": {
         "$description": "",
         "$type": "fontSizes",
@@ -4565,14 +4505,14 @@
           "$value": "1"
         }
       },
-      "leading": {
+      "dimension": {
         "offset": {
-          "$description": "value that is added on top of leading/line-height, i.e.: leading.02 + offset ",
+          "$description": "value that is added on top of dimension, i.e.: dimension.02 + offset ",
           "$type": "number",
           "$value": "0"
         },
         "scaling": {
-          "$description": "value that scales reference leading/line-height, i.e.: leading.02 * scaling",
+          "$description": "value that scales reference dimension, i.e.: dimension.02 * scaling",
           "$type": "number",
           "$value": "1"
         }
