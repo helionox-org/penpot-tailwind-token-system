@@ -1507,6 +1507,64 @@
         "$value": "100"
       }
     },
+    "_leading": {
+      "none": {
+        "$type": "number",
+        "$value": "1"
+      },
+      "tight": {
+        "$type": "number",
+        "$value": "1.25"
+      },
+      "snug": {
+        "$type": "number",
+        "$value": "1.375"
+      },
+      "normal": {
+        "$type": "number",
+        "$value": "1.5"
+      },
+      "relaxed": {
+        "$type": "number",
+        "$value": "1.625"
+      },
+      "loose": {
+        "$type": "number",
+        "$value": "2"
+      },
+      "03": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "04": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "05": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "06": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "07": {
+        "$type": "dimension",
+        "$value": "28px"
+      },
+      "08": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "09": {
+        "$type": "dimension",
+        "$value": "36px"
+      },
+      "10": {
+        "$type": "dimension",
+        "$value": "40px"
+      }
+    },
     "_opacity": {
       "005": {
         "$description": "5% corresponds to opacity-5",
@@ -3772,6 +3830,64 @@
         "$value": "{_font-weight.thin} * {affine-transform.font-weight.scaling} + {affine-transform.font-weight.offset}"
       }
     },
+    "leading": {
+      "none": {
+        "$type": "number",
+        "$value": "{_leading.none} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "tight": {
+        "$type": "number",
+        "$value": "{_leading.tight} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "snug": {
+        "$type": "number",
+        "$value": "{_leading.snug} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "normal": {
+        "$type": "number",
+        "$value": "{_leading.normal} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "relaxed": {
+        "$type": "number",
+        "$value": "{_leading.relaxed} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "loose": {
+        "$type": "number",
+        "$value": "{_leading.loose} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "03": {
+        "$type": "dimension",
+        "$value": "{_leading.3} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "04": {
+        "$type": "dimension",
+        "$value": "{_leading.4} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "05": {
+        "$type": "dimension",
+        "$value": "{_leading.5} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "06": {
+        "$type": "dimension",
+        "$value": "{_leading.6} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "07": {
+        "$type": "dimension",
+        "$value": "{_leading.7} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "08": {
+        "$type": "dimension",
+        "$value": "{_leading.8} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "09": {
+        "$type": "dimension",
+        "$value": "{_leading.9} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      },
+      "10": {
+        "$type": "dimension",
+        "$value": "{_leading.10} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+      }
+    },
     "opacity": {
       "005": {
         "$description": "5% corresponds to opacity-5",
@@ -4647,6 +4763,18 @@
         },
         "scaling": {
           "$description": "value that scales letter-spacing linearly, i.e.: tracking-tight * scaling",
+          "$type": "number",
+          "$value": "1"
+        }
+      },
+      "line-height": {
+        "offset": {
+          "$description": "value that is added on top of line-height, i.e.: leading-normal + offset ",
+          "$type": "number",
+          "$value": "0"
+        },
+        "scaling": {
+          "$description": "value that scales line-height linearly, i.e.: leading-normal * scaling",
           "$type": "number",
           "$value": "1"
         }
