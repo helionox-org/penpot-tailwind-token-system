@@ -5650,12 +5650,12 @@
       },
       "spacing": {
         "offset": {
-          "$description": "value that is added on top of sizing/padding/margin, i.e.: scaling-03 + offset ",
+          "$description": "value that is added on top of sizing/padding/margin, i.e.: spacing-03 + offset ",
           "$type": "number",
           "$value": "0"
         },
         "scaling": {
-          "$description": "value that scales sizing/padding/margin linearly, i.e.: scaling-03 * scaling",
+          "$description": "value that scales sizing/padding/margin linearly, i.e.: spacing-03 * scaling",
           "$type": "number",
           "$value": "1"
         }
