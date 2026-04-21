@@ -1855,150 +1855,290 @@
     },
     "_shadow": {
       "2xl": {
-        "$description": "Tailwind .shadow-2xl",
         "$type": "shadow",
+        "$description": "Tailwind shadow-2xl",
         "$value": {
-          "blur": "50px",
-          "color": "rgba(0, 0, 0, 0.25)",
           "offsetX": "0px",
           "offsetY": "25px",
-          "spread": "-12px"
+          "blur": "50px",
+          "spread": "-12px",
+          "color": "rgba(0, 0, 0, 0.25)"
         }
       },
-      "default": {
-        "$description": "Tailwind .shadow",
+      "2xs": {
         "$type": "shadow",
-        "$value": [
-          {
-            "blur": "2px",
-            "color": "rgba(0, 0, 0, 0.1)",
-            "offsetX": "0px",
-            "offsetY": "1px",
-            "spread": "-1px"
-          },
-          {
-            "blur": "3px",
-            "color": "rgba(0, 0, 0, 0.1)",
-            "offsetX": "0px",
-            "offsetY": "1px",
-            "spread": "0px"
-          }
-        ]
-      },
-      "inner": {
-        "$description": "Tailwind .shadow-inner",
-        "$type": "shadow",
+        "$description": "Tailwind shadow-2xs",
         "$value": {
-          "blur": "4px",
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "0px",
+          "spread": "0px",
+          "color": "rgba(0, 0, 0, 0.05)"
+        }
+      },
+      "inset-2xs": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-shadow-2xs",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "0px",
+          "spread": "0px",
           "color": "rgba(0, 0, 0, 0.05)",
-          "inset": true,
+          "inset": true
+        }
+      },
+      "inset-none": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-shadow-none",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "0px",
+          "color": "rgba(0, 0, 0, 0)",
+          "inset": true
+        }
+      },
+      "inset-ring": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-ring (1px)",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "1px",
+          "color": "rgba(0, 0, 0, 1)",
+          "inset": true
+        }
+      },
+      "inset-ring-0": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-ring-0",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "0px",
+          "color": "rgba(0, 0, 0, 1)",
+          "inset": true
+        }
+      },
+      "inset-ring-2": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-ring-2",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "2px",
+          "color": "rgba(0, 0, 0, 1)",
+          "inset": true
+        }
+      },
+      "inset-ring-4": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-ring-4",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "4px",
+          "color": "rgba(0, 0, 0, 1)",
+          "inset": true
+        }
+      },
+      "inset-ring-8": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-ring-8",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "8px",
+          "color": "rgba(0, 0, 0, 1)",
+          "inset": true
+        }
+      },
+      "inset-sm": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-shadow-sm",
+        "$value": {
           "offsetX": "0px",
           "offsetY": "2px",
-          "spread": "0px"
+          "blur": "4px",
+          "spread": "0px",
+          "color": "rgba(0, 0, 0, 0.05)",
+          "inset": true
+        }
+      },
+      "inset-xs": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-shadow-xs",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "1px",
+          "spread": "0px",
+          "color": "rgba(0, 0, 0, 0.05)",
+          "inset": true
         }
       },
       "lg": {
-        "$description": "Tailwind .shadow-lg",
         "$type": "shadow",
+        "$description": "Tailwind shadow-lg",
         "$value": [
           {
-            "blur": "15px",
-            "color": "rgba(0, 0, 0, 0.1)",
             "offsetX": "0px",
             "offsetY": "10px",
-            "spread": "-3px"
+            "blur": "15px",
+            "spread": "-3px",
+            "color": "rgba(0, 0, 0, 0.1)"
           },
           {
-            "blur": "6px",
-            "color": "rgba(0, 0, 0, 0.1)",
             "offsetX": "0px",
             "offsetY": "4px",
-            "spread": "-4px"
+            "blur": "6px",
+            "spread": "-4px",
+            "color": "rgba(0, 0, 0, 0.1)"
           }
         ]
       },
       "md": {
-        "$description": "Tailwind .shadow-md",
         "$type": "shadow",
+        "$description": "Tailwind shadow-md",
         "$value": [
           {
-            "blur": "4px",
-            "color": "rgba(0, 0, 0, 0.1)",
-            "offsetX": "0px",
-            "offsetY": "2px",
-            "spread": "-2px"
-          },
-          {
-            "blur": "6px",
-            "color": "rgba(0, 0, 0, 0.1)",
             "offsetX": "0px",
             "offsetY": "4px",
-            "spread": "-1px"
+            "blur": "6px",
+            "spread": "-1px",
+            "color": "rgba(0, 0, 0, 0.1)"
+          },
+          {
+            "offsetX": "0px",
+            "offsetY": "2px",
+            "blur": "4px",
+            "spread": "-2px",
+            "color": "rgba(0, 0, 0, 0.1)"
           }
         ]
       },
       "none": {
-        "$description": "Tailwind .shadow-none",
         "$type": "shadow",
+        "$description": "Tailwind shadow-none",
         "$value": {
-          "blur": "0px",
-          "color": "rgba(0, 0, 0, 0)",
           "offsetX": "0px",
           "offsetY": "0px",
-          "spread": "0px"
+          "blur": "0px",
+          "spread": "0px",
+          "color": "rgba(0, 0, 0, 0)"
         }
       },
-      "outline": {
-        "$description": "Tailwind .shadow-outline (Focus ring)",
+      "ring": {
         "$type": "shadow",
+        "$description": "Tailwind ring (1px)",
         "$value": {
-          "blur": "0px",
-          "color": "rgba(66, 153, 225, 0.5)",
           "offsetX": "0px",
           "offsetY": "0px",
-          "spread": "3px"
+          "blur": "0px",
+          "spread": "1px",
+          "color": "rgba(0, 0, 0, 1)"
+        }
+      },
+      "ring-0": {
+        "$type": "shadow",
+        "$description": "Tailwind ring-0",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "0px",
+          "color": "rgba(0, 0, 0, 1)"
+        }
+      },
+      "ring-2": {
+        "$type": "shadow",
+        "$description": "Tailwind ring-2",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "2px",
+          "color": "rgba(0, 0, 0, 1)"
+        }
+      },
+      "ring-4": {
+        "$type": "shadow",
+        "$description": "Tailwind ring-4",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "4px",
+          "color": "rgba(0, 0, 0, 1)"
+        }
+      },
+      "ring-8": {
+        "$type": "shadow",
+        "$description": "Tailwind ring-8",
+        "$value": {
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "blur": "0px",
+          "spread": "8px",
+          "color": "rgba(0, 0, 0, 1)"
         }
       },
       "sm": {
-        "$description": "Tailwind .shadow-sm",
         "$type": "shadow",
-        "$value": {
-          "blur": "2px",
-          "color": "rgba(0, 0, 0, 0.05)",
-          "offsetX": "0px",
-          "offsetY": "1px",
-          "spread": "0px"
-        }
-      },
-      "xl": {
-        "$description": "Tailwind .shadow-xl",
-        "$type": "shadow",
+        "$description": "Tailwind shadow-sm",
         "$value": [
           {
-            "blur": "10px",
-            "color": "rgba(0, 0, 0, 0.1)",
             "offsetX": "0px",
-            "offsetY": "8px",
-            "spread": "-6px"
+            "offsetY": "1px",
+            "blur": "3px",
+            "spread": "0px",
+            "color": "rgba(0, 0, 0, 0.1)"
           },
           {
-            "blur": "25px",
-            "color": "rgba(0, 0, 0, 0.1)",
+            "offsetX": "0px",
+            "offsetY": "1px",
+            "blur": "2px",
+            "spread": "-1px",
+            "color": "rgba(0, 0, 0, 0.1)"
+          }
+        ]
+      },
+      "xl": {
+        "$type": "shadow",
+        "$description": "Tailwind shadow-xl",
+        "$value": [
+          {
             "offsetX": "0px",
             "offsetY": "20px",
-            "spread": "-5px"
+            "blur": "25px",
+            "spread": "-5px",
+            "color": "rgba(0, 0, 0, 0.1)"
+          },
+          {
+            "offsetX": "0px",
+            "offsetY": "8px",
+            "blur": "10px",
+            "spread": "-6px",
+            "color": "rgba(0, 0, 0, 0.1)"
           }
         ]
       },
       "xs": {
-        "$description": "Tailwind .shadow-xs",
         "$type": "shadow",
+        "$description": "Tailwind shadow-xs",
         "$value": {
-          "blur": "0px",
-          "color": "rgba(0, 0, 0, 0.05)",
           "offsetX": "0px",
-          "offsetY": "0px",
-          "spread": "1px"
+          "offsetY": "1px",
+          "blur": "2px",
+          "spread": "0px",
+          "color": "rgba(0, 0, 0, 0.05)"
         }
       }
     },
@@ -4327,53 +4467,113 @@
     },
     "shadow": {
       "2xl": {
-        "$description": "Tailwind .shadow-2xl",
         "$type": "shadow",
+        "$description": "Tailwind shadow-2xl",
         "$value": "{_shadow.2xl}"
       },
-      "default": {
-        "$description": "Tailwind .shadow",
+      "2xs": {
         "$type": "shadow",
-        "$value": "{_shadow.default}"
+        "$description": "Tailwind shadow-2xs",
+        "$value": "{_shadow.2xs}"
       },
-      "inner": {
-        "$description": "Tailwind .shadow-inner",
+      "inset-2xs": {
         "$type": "shadow",
-        "$value": "{_shadow.inner}"
+        "$description": "Tailwind inset-shadow-2xs",
+        "$value": "{_shadow.inset-2xs}"
+      },
+      "inset-none": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-shadow-none",
+        "$value": "{_shadow.inset-none}"
+      },
+      "inset-ring": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-ring (1px)",
+        "$value": "{_shadow.inset-ring}"
+      },
+      "inset-ring-0": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-ring-0",
+        "$value": "{_shadow.inset-ring-0}"
+      },
+      "inset-ring-2": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-ring-2",
+        "$value": "{_shadow.inset-ring-2}"
+      },
+      "inset-ring-4": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-ring-4",
+        "$value": "{_shadow.inset-ring-4}"
+      },
+      "inset-ring-8": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-ring-8",
+        "$value": "{_shadow.inset-ring-8}"
+      },
+      "inset-sm": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-shadow-sm",
+        "$value": "{_shadow.inset-sm}"
+      },
+      "inset-xs": {
+        "$type": "shadow",
+        "$description": "Tailwind inset-shadow-xs",
+        "$value": "{_shadow.inset-xs}"
       },
       "lg": {
-        "$description": "Tailwind .shadow-lg",
         "$type": "shadow",
+        "$description": "Tailwind shadow-lg",
         "$value": "{_shadow.lg}"
       },
       "md": {
-        "$description": "Tailwind .shadow-md",
         "$type": "shadow",
+        "$description": "Tailwind shadow-md",
         "$value": "{_shadow.md}"
       },
       "none": {
-        "$description": "Tailwind .shadow-none",
         "$type": "shadow",
+        "$description": "Tailwind shadow-none",
         "$value": "{_shadow.none}"
       },
-      "outline": {
-        "$description": "Tailwind .shadow-outline (Focus ring)",
+      "ring": {
         "$type": "shadow",
-        "$value": "{_shadow.outline}"
+        "$description": "Tailwind ring (1px)",
+        "$value": "{_shadow.ring}"
+      },
+      "ring-0": {
+        "$type": "shadow",
+        "$description": "Tailwind ring-0",
+        "$value": "{_shadow.ring-0}"
+      },
+      "ring-2": {
+        "$type": "shadow",
+        "$description": "Tailwind ring-2",
+        "$value": "{_shadow.ring-2}"
+      },
+      "ring-4": {
+        "$type": "shadow",
+        "$description": "Tailwind ring-4",
+        "$value": "{_shadow.ring-4}"
+      },
+      "ring-8": {
+        "$type": "shadow",
+        "$description": "Tailwind ring-8",
+        "$value": "{_shadow.ring-8}"
       },
       "sm": {
-        "$description": "Tailwind .shadow-sm",
         "$type": "shadow",
+        "$description": "Tailwind shadow-sm",
         "$value": "{_shadow.sm}"
       },
       "xl": {
-        "$description": "Tailwind .shadow-xl",
         "$type": "shadow",
+        "$description": "Tailwind shadow-xl",
         "$value": "{_shadow.xl}"
       },
       "xs": {
-        "$description": "Tailwind .shadow-xs",
         "$type": "shadow",
+        "$description": "Tailwind shadow-xs",
         "$value": "{_shadow.xs}"
       }
     },
