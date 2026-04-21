@@ -4146,31 +4146,31 @@
       },
       "03": {
         "$type": "dimension",
-        "$value": "{_leading.3} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+        "$value": "{_leading.03} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
       },
       "04": {
         "$type": "dimension",
-        "$value": "{_leading.4} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+        "$value": "{_leading.04} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
       },
       "05": {
         "$type": "dimension",
-        "$value": "{_leading.5} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+        "$value": "{_leading.05} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
       },
       "06": {
         "$type": "dimension",
-        "$value": "{_leading.6} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+        "$value": "{_leading.06} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
       },
       "07": {
         "$type": "dimension",
-        "$value": "{_leading.7} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+        "$value": "{_leading.07} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
       },
       "08": {
         "$type": "dimension",
-        "$value": "{_leading.8} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+        "$value": "{_leading.08} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
       },
       "09": {
         "$type": "dimension",
-        "$value": "{_leading.9} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
+        "$value": "{_leading.09} * {affine-transform.line-height.scaling} + {affine-transform.line-height.offset}"
       },
       "10": {
         "$type": "dimension",
