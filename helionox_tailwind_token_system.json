@@ -4191,7 +4191,7 @@
       "015": {
         "$description": "15% corresponds to opacity-15",
         "$type": "opacity",
-        "$value": "{_opacity.015} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
+        "$value": "{_opacity.015} * {affine-transform.opacity.scaling} + {affine-transform.opacity.offset}"
       },
       "020": {
         "$description": "20% corresponds to opacity-20",
