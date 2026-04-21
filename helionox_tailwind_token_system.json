@@ -2376,7 +2376,7 @@
         "$type": "sizing",
         "$value": "0px"
       },
-      "0.5": {
+      "0p5": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 0.125rem",
         "$type": "sizing",
         "$value": "2px"
@@ -2386,7 +2386,7 @@
         "$type": "sizing",
         "$value": "4px"
       },
-      "1.5": {
+      "1p5": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 0.375rem",
         "$type": "sizing",
         "$value": "6px"
@@ -2396,7 +2396,7 @@
         "$type": "sizing",
         "$value": "8px"
       },
-      "2.5": {
+      "2p5": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 0.625rem",
         "$type": "sizing",
         "$value": "10px"
@@ -2406,7 +2406,7 @@
         "$type": "sizing",
         "$value": "12px"
       },
-      "3.5": {
+      "3p5": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 0.875rem",
         "$type": "sizing",
         "$value": "14px"
@@ -2553,7 +2553,7 @@
         "$type": "spacing",
         "$value": "0px"
       },
-      "0.5": {
+      "0p5": {
         "$description": "p-0.5/m-0.5, 0.125rem",
         "$type": "spacing",
         "$value": "2px"
@@ -2563,7 +2563,7 @@
         "$type": "spacing",
         "$value": "4px"
       },
-      "1.5": {
+      "1p5": {
         "$description": "p-1.5/m-1.5, 0.375rem",
         "$type": "spacing",
         "$value": "6px"
@@ -2573,7 +2573,7 @@
         "$type": "spacing",
         "$value": "8px"
       },
-      "2.5": {
+      "2p5": {
         "$description": "p-2.5/m-2.5, 0.625rem",
         "$type": "spacing",
         "$value": "10px"
@@ -2583,7 +2583,7 @@
         "$type": "spacing",
         "$value": "12px"
       },
-      "3.5": {
+      "3p5": {
         "$description": "p-3.5/m-3.5, 0.875rem",
         "$type": "spacing",
         "$value": "14px"
@@ -5039,40 +5039,40 @@
         "$type": "sizing",
         "$value": "{_sizing.00} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
       },
-      "0.5": {
+      "0p5": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 0.125rem",
         "$type": "sizing",
-        "$value": "{_sizing.0.5} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
+        "$value": "{_sizing.0p5} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
       },
       "01": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 0.25rem",
         "$type": "sizing",
         "$value": "{_sizing.01} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
       },
-      "1.5": {
+      "1p5": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 0.375rem",
         "$type": "sizing",
-        "$value": "{_sizing.1.5} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
+        "$value": "{_sizing.1p5} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
       },
       "02": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 0.5rem",
         "$type": "sizing",
         "$value": "{_sizing.02} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
       },
-      "2.5": {
+      "2p5": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 0.625rem",
         "$type": "sizing",
-        "$value": "{_sizing.2.5} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
+        "$value": "{_sizing.2p5} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
       },
       "03": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 0.75rem",
         "$type": "sizing",
         "$value": "{_sizing.03} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
       },
-      "3.5": {
+      "3p5": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 0.875rem",
         "$type": "sizing",
-        "$value": "{_sizing.3.5} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
+        "$value": "{_sizing.3p5} * {affine-transform.sizing.scaling} + {affine-transform.sizing.offset}"
       },
       "04": {
         "$description": "Use for arbitrary sizing, i.e.: minimum width: 1rem",
@@ -5216,40 +5216,40 @@
         "$type": "spacing",
         "$value": "{_spacing.00} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
       },
-      "0.5": {
+      "0p5": {
         "$description": "p-0.5/m-0.5, 0.125rem",
         "$type": "spacing",
-        "$value": "{_spacing.0.5} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
+        "$value": "{_spacing.0p5} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
       },
       "01": {
         "$description": "p-1/m-1, 0.25rem",
         "$type": "spacing",
         "$value": "{_spacing.01} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
       },
-      "1.5": {
+      "1p5": {
         "$description": "p-1.5/m-1.5, 0.375rem",
         "$type": "spacing",
-        "$value": "{_spacing.1.5} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
+        "$value": "{_spacing.1p5} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
       },
       "02": {
         "$description": "p-2/m-2, 0.5rem",
         "$type": "spacing",
         "$value": "{_spacing.02} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
       },
-      "2.5": {
+      "2p5": {
         "$description": "p-2.5/m-2.5, 0.625rem",
         "$type": "spacing",
-        "$value": "{_spacing.2.5} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
+        "$value": "{_spacing.2p5} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
       },
       "03": {
         "$description": "p-3/m-3, 0.75rem",
         "$type": "spacing",
         "$value": "{_spacing.03} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
       },
-      "3.5": {
+      "3p5": {
         "$description": "p-3.5/m-3.5, 0.875rem",
         "$type": "spacing",
-        "$value": "{_spacing.3.5} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
+        "$value": "{_spacing.3p5} * {affine-transform.spacing.scaling} + {affine-transform.spacing.offset}"
       },
       "04": {
         "$description": "p-4/m-4, 1rem",
