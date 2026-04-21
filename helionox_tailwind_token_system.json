@@ -2834,32 +2834,32 @@
       "normal": {
         "$description": "Standard/default letter spacing in tailwind",
         "$type": "letterSpacing",
-        "$value": "{text.base}*0"
+        "$value": "{_text.base}*0"
       },
       "tight": {
         "$description": "1step tighter than normal letter spacing in tailwind",
         "$type": "letterSpacing",
-        "$value": "{text.base}*-0.025"
+        "$value": "{_text.base}*-0.025"
       },
       "tighter": {
         "$description": "Tightest letter spacing in tailwind",
         "$type": "letterSpacing",
-        "$value": "{text.base}*-0.05"
+        "$value": "{_text.base}*-0.05"
       },
       "wide": {
         "$description": "1step wider than normal letter spacing in tailwind",
         "$type": "letterSpacing",
-        "$value": "{text.base}*0.025"
+        "$value": "{_text.base}*0.025"
       },
       "wider": {
         "$description": "2 step wider than normal letter spacing in tailwind",
         "$type": "letterSpacing",
-        "$value": "{text.base}*0.05"
+        "$value": "{_text.base}*0.05"
       },
       "widest": {
         "$description": "Widest letter spacing in tailwind",
         "$type": "letterSpacing",
-        "$value": "{text.base}*0.1"
+        "$value": "{_text.base}*0.1"
       }
     }
   },
